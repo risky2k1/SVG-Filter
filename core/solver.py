@@ -41,4 +41,4 @@ class Solver:
             if loss < best_loss:
                 best, best_loss = trial, loss
 
-        return best
+        return best, best_loss
